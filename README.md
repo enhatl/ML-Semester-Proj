@@ -1,6 +1,10 @@
 # ML-Semester-Proj
 https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset/tree/main
 
+## Main problem to solve:
+
+We want to be able to predict which genre a song is based on some of the data about it.
+
 Column Description
 
 track_id: The Spotify ID for the track
