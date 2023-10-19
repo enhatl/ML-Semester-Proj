@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("C://Users//vamsi//Downloads//dataset.csv")
+df = pd.read_csv("dataset.csv")
 df_dt = df.copy()
 
 from sklearn.model_selection import train_test_split
