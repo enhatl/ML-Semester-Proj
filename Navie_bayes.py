@@ -1,6 +1,6 @@
 import pandas as pd
-df = pd.read_csv("C://Users//vamsi//Downloads//dataset.csv")
-df_dt = df.copy()
+url = 'https://raw.githubusercontent.com/enhatl/ML-Semester-Proj/main/dataset.csv'
+df_dt = pd.read_csv(url,index_col=0)
 from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
 from sklearn.calibration import LabelEncoder
